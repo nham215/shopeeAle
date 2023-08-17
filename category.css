@@ -1,0 +1,128 @@
+main{
+    background-color: #fafafa;
+}
+
+.category-container{
+    display: flex;
+    max-width: 1180.25px;
+    margin: 0 auto;
+    
+    gap: 16px;
+}
+
+.category-filter{
+    max-width: 295px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 21px 30px 16px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-height: 780px;
+}
+.category-filter hr{
+    color: #eeeeee;
+    width: 263px;
+    height: 1px;
+    border-radius: 2px;
+}
+.category-filter .category-filter-title{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+.category-filter .category-filter-search{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.category-filter .category-filter-search input{
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 17px 16px;
+    background-color: #fafafa;
+}
+.category-filter .category-filter-search .category-filter-search-hint{
+    font-size: 10px;
+    display: flex;
+    gap: 8px;
+    max-width: 260px;
+}
+.category-filter .category-filter-search .category-filter-search-hint .category-filter-search-hint-btn{
+    border-radius: 12px;
+    padding: 4px 12px;
+    background-color: #fafafa;
+    color: #fa541c;
+    gap: 4px;
+    max-width: 81px;
+}
+.category-filter .category-filter-search .category-filter-search-hint .category-filter-search-hint-btn button{
+    border: none;
+    outline: none;
+}
+.category-filter .category-filter-search .category-filter-search-hint .category-filter-search-hint-btn span{
+    
+    max-width: 4px;
+}
+
+
+.category-filter .category-filter-apple{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.category-filter .category-filter-price .category-filter-price-from{
+    padding-top: 16px;
+}
+.category-filter .category-filter-price .category-filter-price-from input{
+    width: 60px;
+    height: 40px;
+    margin-right: 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+.category-filter .category-filter-price .category-filter-price-from span{
+    margin-right: 8px;
+}
+
+
+
+.fashion {
+    max-width: 969px;
+    background-color: #fafafa;
+}
+
+.fashion .fashion-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px ;
+}
+.fashion .fashion-list button{
+    width: 30px;
+    height: 30px;
+    padding: 6px 3px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+
+
+@media (max-width: 768px) {
+    .category-filter{
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 992px) and (max-width: 1367px){
+    .fashion .apple-item .apple-item-box{
+        width: 100%;
+    }
+}   
