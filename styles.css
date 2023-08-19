@@ -104,9 +104,7 @@ ul li{
     align-items: center;
     display: flex;
     max-width: 295px;
-    width: 100%;
     gap: 11px;
-    background-color: #fefefe;
 }
 .headerBottom .search .search-item .search-img{
     width: 24px;
@@ -115,12 +113,25 @@ ul li{
     width: 215px;
     gap: 16px;
     display: flex;
+    padding: 8px 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+    border-radius: 4px;
+    background-color: #fefefe;
 }
 .headerBottom .search .cart-icon{
-    width: 40px;
+    max-width: 40px;
+    /* padding: 7px 6.32px 5.67px 5.67px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+    border-radius: 4px;
+    background-color: #fefefe;
 }
 .headerBottom .search .book-icon{
-    width: 40px;
+    max-width: 40px;
+  max-height: 40px;
+  padding: 12px 11px 6px 10.23px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+  border-radius: 4px;
+  background-color: #fefefe;
     
 }
 .headerBottom .search .search-item input{

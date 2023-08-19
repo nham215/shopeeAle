@@ -71,6 +71,10 @@ section{
     align-items: center;
     gap: 16px;
 }
+.cart-item .cart-item-box .box-title img{
+    max-width: 100px;
+    object-fit: contain;
+}
 .cart-item .cart-item-box .box-title .box-title-desc{
     display: flex;
     flex-direction: column;
@@ -86,7 +90,11 @@ section{
     align-items: center;
     gap: 79px;
 }
-
+.cart-item .cart-item-box .remove-cart{
+    outline: none;
+    border: none;
+    background-color: #fefefe;
+}
 
 
 .cart-item .cart-item-order{
